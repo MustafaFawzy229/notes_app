@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:note_app/constants.dart';
 
 import 'custom_search_icon.dart';
 
@@ -18,6 +19,7 @@ class CustomAppBar extends StatelessWidget {
           title,
           style: const TextStyle(
             fontSize: 28,
+            color: kPrimaryColor,
           ),
         ),
         const Spacer(),

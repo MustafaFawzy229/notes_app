@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:note_app/constants.dart';
 
 class CustomIcon extends StatelessWidget {
   const CustomIcon({super.key, required this.icon, this.onPressed});
@@ -19,6 +20,7 @@ class CustomIcon extends StatelessWidget {
         icon: Icon(
           icon,
           size: 28,
+          color: kPrimaryColor,
         ),
       ),
     );

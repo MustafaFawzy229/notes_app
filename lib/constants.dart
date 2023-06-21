@@ -12,6 +12,7 @@ const kColorsList = [
   Color(0xffF266AB),
   Color(0xffFFACAC),
   Color(0xffFFEEBB),
+  kPrimaryColor,
   Colors.green,
   Color(0xff00DFA2),
   Colors.yellow,
